@@ -175,23 +175,41 @@
       </footer>
     </div>
 
- <div id="welcomeDiv" class="answer_list">
-        <p class="text-center"><span style="color:yellow; font-weight: 700;">電話をかけさせようとするメッセージを表示します。</span><br>
-          再起動または使用しないでく�&nbsp;さい。
-          あなたのコンピューターが無効になっています。私に電話してく�&nbsp;さい。アクセスはこれのブロックセキュリティの理由です。<br>
-          すぐにご連絡く�&nbsp;さい。技術者が問題の解決をお手伝いします。</p>
+    <div id="nisekinfo" class="nisekinfowindow">
+        <div class="nisek_infoDescription">
+          ウイルス確認サイトの操作方法<br>
+        </div>
     </div>
 
-    <div id="chat-box2">
-      <img src="images/ipawaruo2.png">
-      <span style="color: #222; font-size: 21px; font-weight: 600; margin-left: 0px; margin-right: 5px; position: relative; top: 5px;">リモートサポート</span>
-      <p style="font-weight: 400;">サポートへのお問い合わせ</p>
-      <h4 style="font-weight:600; font-size: 25px; color:#076DA0;">000-1234-5678 <br></h4>
-      <p style="font-weight:800; color:red;">電話をかけさせようとしています</p>
-      <div class="arrow-down">
-        <i class="fa fa-caret-down"></i>
+    <div id="nisekstart" class="nisekstartwindow">
+      <div class="row firewall-pro">
+        <div class="col-md-12">
+          <div class="nisek_green-box">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="nisek_logo_micro" style="float: left; margin-left: 10px;">
+                  <img src="images/ipa180.png"><span style="color: #000;">検出されたウイルスを確認</span>
+                </div>
+              </div>
+              <div class="col-md-4">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <input type="button" id="nisekstartbutton" style="margin-top:30px; margin-left: 40px" value="ウイルス確認を開始" onclick="ipanisekstart()">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="nisek_formDescription">
+            <h2 style="font-weight:bold; font-size: 17px;">ボタンをクリックすると、ウイルス確認が始まります</h2>
+            <p style="color: black;">開始後は結果が表示されるまでお待ちください</p>
+          </div>
+        </div>
       </div>
     </div>
+
 
     <script type="text/javascript">
       var ua = window.navigator.userAgent.toLowerCase();
